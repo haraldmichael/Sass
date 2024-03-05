@@ -98,6 +98,10 @@ section {
 }
 
 @media screen and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+
     .products {
         grid-template-columns: repeat(1, 100%);
         column-gap: 0;
